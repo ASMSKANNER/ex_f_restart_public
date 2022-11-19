@@ -1,6 +1,9 @@
 set -x
+
 source ~/.bashrc
+
 echo $fuckingMMexorde
+
 docker stop exorde-cli
 docker stop exorde-cli2
 docker stop exorde-cli3
