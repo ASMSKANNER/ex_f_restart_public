@@ -1,0 +1,31 @@
+echo $fuckingMMexorde
+docker stop exorde-cli
+docker stop exorde-cli2
+docker stop exorde-cli3
+docker stop exorde-cli4
+docker stop exorde-cli5
+docker stop exorde-cli6
+docker stop exorde-cli7
+docker stop exorde-cli8
+docker stop exorde-cli9
+docker stop exorde-cli10
+docker rm -f exorde-cli
+docker rm -f exorde-cli2
+docker rm -f exorde-cli3
+docker rm -f exorde-cli4
+docker rm -f exorde-cli5
+docker rm -f exorde-cli6
+docker rm -f exorde-cli7
+docker rm -f exorde-cli8
+docker rm -f exorde-cli9
+docker rm -f exorde-cli10
+docker run -d --restart unless-stopped --pull always --name exorde-cli rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli2 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli3 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli4 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli5 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli6 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli7 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli8 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli9 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
+docker run -d --restart unless-stopped --pull always --name exorde-cli10 rg.fr-par.scw.cloud/exorde-labs/exorde-cli -m $fuckingMMexorde -l 4
