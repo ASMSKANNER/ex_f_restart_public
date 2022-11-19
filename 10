@@ -1,3 +1,4 @@
+set -x
 echo $fuckingMMexorde
 docker stop exorde-cli
 docker stop exorde-cli2
